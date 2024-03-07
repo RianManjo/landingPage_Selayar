@@ -1,0 +1,133 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+}
+
+.content-navbar .title {
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+}
+
+.content-navbar .title span {
+    font-weight: bold;
+}
+/* Navigation Bar End */
+
+/* Section One */
+
+#hero{
+    margin-top: 153px;
+}
+
+.section-one {
+    background-image: url('assets/images/background.svg');
+    height: 82vh;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    background-size: cover;
+}
+
+.content-one {
+    margin-top: 90px;
+    margin-bottom: 194px;
+    color: #FFF;
+}
+
+.content-one .title {
+    font-size: 50px;
+    font-family: Mulish, sans-serif;
+    font-weight: 400;
+}
+
+.content-one .ket {
+    font-size: 64px;
+    font-family: Mulish, sans-serif;
+    font-weight: 900;
+    text-shadow: -1px -1px 0 #0090D9, 1px -1px 0 #0090D9, -1px 1px 0 #0090D9, 1px 1px 0 #0090D9;    
+}
+
+.content-one .sub-title {
+    font-size: 24px;
+    font-weight: lighter;
+}
+/* Section One End */
+
+/* Section Two */
+
+#aplikasi {
+    margin-top: 95px;
+    margin-bottom: 96px;
+}
+
+.aplikasi {
+    text-align: center;
+    color: #003F7D;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Mulish, sans-serif;
+}
+
+
+.card {
+    background-color: #EBF7FD;
+    border-radius: 20px;
+    height: 373px;
+}
+
+.card .title {
+    margin-top: 14px;
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+    font-family: Mulish, sans-serif;
+}
+
+.card .keterangan {
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: Mulish, sans-serif;
+    color: #7D7987;
+}
+
+.btn button {
+    background-color: #0090D9;
+    border-radius: 10px;
+    border: none;
+    width: 198px;
+    height: 48px;
+    margin-bottom: 40px;
+    margin-top: 14px;
+}
+
+.btn button a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Section Two End */
+
+/* Footer */
+#footer .container .card {
+    background-color: #0090D9;
+    height: 207px;
+}
+
+
+/* Footer End */
