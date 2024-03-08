@@ -181,6 +181,14 @@
     color: #7D7987;
     font-size: 16px;
 }
+
+/* Mobile View */
+.mobile {
+    display: none;
+}
+/* Mobile View End */
+
+
 /* Footer End */
 
 @media (max-width: 767px) {
@@ -279,67 +287,67 @@
 
     /* Footer */
 
-    
-    #footer .container .card {        
-        height: 207px;
-    }
-    
-    .logo-selayar img {
-        width: 30px;
-    }
-    
-    .ket-title {        
-        margin-top: 35px;
-    }
-    
-    .ket-title .title {
-        color: #FFF;
-        font-size: 11px;
-        font-weight: bold;
-        background-color: yellow;
-        float: left;        
-        /* font-family: Mulish, sans-serif;     */
-    }
-    
-    .ket-title .sub-title {
-        font-size: 9px;    
-        font-weight: lighter;
-        position: absolute;
-    }
-    
-    .icon {
-        /* margin-top: 44px; */
-        color: #FFF;
-        padding-right: 60px;
-        
-    }
-    
-    .icon .title {
-        color: #ee1616;
-        font-size: 10px;
-        font-weight: 400;
-    }
-    
-    .icon ul {
-        display: flex;
-        float: right;
-        gap: 16px;
-    }
-    
-    .icon ul li {
-        list-style: none;
-        cursor: pointer;
-    }
-
-    .icon ul li img {
-        background-color: red;
-        width: 10px;
-    }
-    
     .copyright {        
         font-size: 10px;
     }
 
+    .logo-selayar {
+        display: none;
+    }
+
+    .ket-title {
+        display: none;
+    }
+    .icon {
+        display: none;
+    }
+
+    /* Mobile View */
+    .mobile {
+        display: block;
+    }
+
+    .mobile-logo-selayar {
+        width: 10%;
+    }
+    /* Mobile View End */
+    .mobile-logoselayar img{
+        width: 30px;   
+    }
+
+    .mobile .ket {
+        color: #FFF;
+    }
     
+    .mobile .ket .title {
+        color: #FFF;
+        font-size: 12px;
+    }
+
+    .mobile .ket span {
+        font-size: 10px;
+    }
+
+    .sosmed .title {
+        color: #FFF;
+        font-size: 10px;
+    }
+
+    .icons ul {
+        display: flex;    
+        float: right;        
+        gap: 17px;
+        margin-right: 10px;
+    }
+
+    .icons ul li {
+        list-style: none;
+    }
+    .icons ul li img{
+        width: 10px;
+        cursor: pointer;
+        position: absolute;
+        margin-top: -10px;
+    }
     /* Footer End */
 }
