@@ -79,8 +79,14 @@
     text-align: center;
     color: #003F7D;
     font-size: 36px;
-    font-weight: 700;
-    font-family: Mulish, sans-serif;
+    font-weight: 600;
+    /* font-family: Mulish, sans-serif; */
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -94,8 +100,8 @@
     margin-top: 14px;
     font-size: 24px;
     color: #000;
-    font-weight: 700;
-    font-family: Mulish, sans-serif;
+    font-weight: 600;
+    /* font-family: Mulish, sans-serif; */
 }
 
 .card .keterangan {
@@ -119,7 +125,8 @@
     text-decoration: none;
     color: #FFF;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 600;
+    
 }
 /* Section Two End */
 
@@ -128,6 +135,53 @@
     background-color: #0090D9;
     height: 207px;
 }
+
+.ket-title {
+    color: #FFF;
+    margin-top: 35px;
+}
+
+.ket-title .title {
+    color: #FFF;
+    font-size: 23px;
+    font-weight: bold;
+    /* font-family: Mulish, sans-serif;     */
+}
+
+.ket-title .sub-title {
+    font-size: 18px;    
+    font-weight: lighter;
+}
+
+.icon {
+    /* margin-top: 44px; */
+    color: #FFF;
+    padding-right: 60px;
+    
+}
+
+.icon .title {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.icon ul {
+    display: flex;
+    float: right;
+    gap: 16px;
+}
+
+.icon ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.copyright {
+    color: #7D7987;
+    font-size: 16px;
+}
+
 
 
 /* Footer End */
