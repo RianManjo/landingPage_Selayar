@@ -157,7 +157,7 @@
     /* margin-top: 44px; */
     color: #FFF;
     padding-right: 60px;
-    
+    margin-top: 65px;
 }
 
 .icon .title {
@@ -181,7 +181,165 @@
     color: #7D7987;
     font-size: 16px;
 }
-
-
-
 /* Footer End */
+
+@media (max-width: 767px) {
+
+    /* Navigation Bar */
+    .navbar {
+        background-color: #FFF;
+        justify-content: center;
+        align-items: center;                
+    }
+    
+    .content-navbar {    
+        gap:20px;
+    }
+    
+    .content-navbar img {
+        width: 47px;
+    }
+    
+    .content-navbar .title {
+        font-size: 12px;
+        font-family: Inter, sans-serif;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    /* Navigation Bar End */
+
+    /* Section One */
+    #hero{
+        margin-top: 103px;
+    }
+    
+    .section-one {        
+        height: 52vh;        
+    }    
+    
+    .content-one .title {
+        font-size: 20px;        
+    }
+    
+    .content-one .ket {
+        font-size: 23px;        
+    }
+    
+    .content-one .sub-title {
+        font-size: 12px;        
+    }
+    /* Section One End*/
+
+    /* Section Two */
+    #aplikasi {
+        margin-top: 35px;
+        margin-bottom: 96px;
+    }
+    
+    .aplikasi {
+        text-align: center;
+        color: #003F7D;
+        font-size: 23px;
+        font-weight: 600;
+        /* font-family: Mulish, sans-serif; */
+    }
+    
+    .line img{
+        width: 60px;
+    }    
+    
+    .card img {
+        width: 130px;
+    }
+    .card .title {
+        margin-top: 14px;
+        font-size: 16px;                
+        text-align: center;
+        /* font-family: Mulish, sans-serif; */
+    }
+    
+    .card .keterangan {
+        font-size: 12px;        
+        text-align: center;
+    }
+    
+    .btn button {        
+        width: 120px;
+        height: 38px;
+        
+    }
+    
+    .btn button a {        
+        font-size: 12px;
+        font-weight: 100;
+        
+    }
+    /* Section Two End */
+
+    /* Footer */
+
+    
+    #footer .container .card {        
+        height: 207px;
+    }
+    
+    .logo-selayar img {
+        width: 30px;
+    }
+    
+    .ket-title {        
+        margin-top: 35px;
+    }
+    
+    .ket-title .title {
+        color: #FFF;
+        font-size: 11px;
+        font-weight: bold;
+        background-color: yellow;
+        float: left;        
+        /* font-family: Mulish, sans-serif;     */
+    }
+    
+    .ket-title .sub-title {
+        font-size: 9px;    
+        font-weight: lighter;
+        position: absolute;
+    }
+    
+    .icon {
+        /* margin-top: 44px; */
+        color: #FFF;
+        padding-right: 60px;
+        
+    }
+    
+    .icon .title {
+        color: #ee1616;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    
+    .icon ul {
+        display: flex;
+        float: right;
+        gap: 16px;
+    }
+    
+    .icon ul li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .icon ul li img {
+        background-color: red;
+        width: 10px;
+    }
+    
+    .copyright {        
+        font-size: 10px;
+    }
+
+    
+    /* Footer End */
+}
